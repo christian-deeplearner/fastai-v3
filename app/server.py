@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://storage.cloud.google.com/cacuna-fastai-deployment/export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=18wQblR0tZIBVU5kgmEAZkymMAKg0ofds'
 export_file_name = 'export.pkl'
 
 classes = ['black', 'grizzly', 'teddys']
